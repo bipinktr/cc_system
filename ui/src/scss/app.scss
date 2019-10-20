@@ -1,0 +1,27 @@
+.app-container {
+  font-size: 12px;
+  padding: 20px;
+
+  .form-group {
+    .invalid-feedback {
+      display: block;
+    }
+  }
+
+  .btn {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    width: 25%;
+    min-width: 350px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .form-container {
+      width: 100%;
+      min-width: 0;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": ":memory",
+    "define": {
+      "underscored": true,
+      "freezeTableName": true,
+      "timestamps": false
+    }
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory",
+    "define": {
+      "underscored": true,
+      "freezeTableName": true,
+      "timestamps": false
+    }
+  }
+}
